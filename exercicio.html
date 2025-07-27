@@ -1,0 +1,68 @@
+<body>
+
+  <h1>Desafios com Loop While</h1>
+
+  <div class="desafio">
+    <h2>Desafio 1 — Contador de 1 até 10</h2>
+    <div class="enunciado">Crie um contador que comece em 1 e vá até 10 usando um loop while. Mostre cada número.</div>
+    <pre>
+function contadorUmAteDez() {
+  let contador = 1;
+  while (contador <= 10) {
+    console.log(contador);
+    contador++;
+  }
+}
+    </pre>
+    <div class="resposta">🟢 Exemplo de resposta: O console exibirá os números de 1 a 10, um por linha.</div>
+  </div>
+
+  <div class="desafio">
+    <h2>Desafio 2 — Contador de 10 até 0</h2>
+    <div class="enunciado">Crie um contador que começa em 10 e vá até 0 usando um loop while. Mostre cada número.</div>
+    <pre>
+function contadorDezAteZero() {
+  let contador = 10;
+  while (contador >= 0) {
+    console.log(contador);
+    contador--;
+  }
+}
+    </pre>
+    <div class="resposta">🟢 Exemplo de resposta: O console exibirá os números de 10 até 0, um por linha.</div>
+  </div>
+
+  <div class="desafio">
+    <h2>Desafio 3 — Contagem regressiva personalizada</h2>
+    <div class="enunciado">Crie um programa de contagem regressiva. Peça um número e conte deste número até 0, usando um loop while no console do navegador.</div>
+    <pre>
+function contagemRegressiva() {
+  let numero = parseInt(prompt("Digite um número para a contagem regressiva:"));
+  while (numero >= 0) {
+    console.log(numero);
+    numero--;
+  }
+}
+    </pre>
+    <div class="resposta">🟢 Exemplo de resposta: Se o usuário digitar "5", o console exibirá: 5, 4, 3, 2, 1, 0.</div>
+  </div>
+
+  <div class="desafio">
+    <h2>Desafio 4 — Contagem progressiva personalizada</h2>
+    <div class="enunciado">Crie um programa de contagem progressiva. Peça um número e conte de 0 até esse número, usando um loop while no console do navegador.</div>
+    <pre>
+function contagemProgressiva() {
+  let numero = parseInt(prompt("Digite um número para a contagem progressiva:"));
+  let contador = 0;
+  while (contador <= numero) {
+    console.log(contador);
+    contador++;
+  }
+}
+    </pre>
+    <div class="resposta">🟢 Exemplo de resposta: Se o usuário digitar "5", o console exibirá: 0, 1, 2, 3, 4, 5.</div>
+  </div>
+
+</body>
+</html>
+
